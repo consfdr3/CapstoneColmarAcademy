@@ -4,6 +4,18 @@ body {
   margin: auto;
 }
 
+body p {
+  color: #6B6B6B;
+}
+
+body h1 {
+  color: #333333;
+}
+
+body h3 {
+  color: #333333;
+}
+
 .content {
   border-left: 2px solid #707070;
 }
@@ -105,7 +117,7 @@ header a {
 
 .keep-content {
   display: flex;
-  padding: : 16px 16px;
+  padding: 16px 16px;
   border: 2px solid #CCCCCC;
 }
 
@@ -135,7 +147,6 @@ header a {
 }
 
 .start-container {
-  font-size: 20px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -160,6 +171,7 @@ header a {
 .start-content {
   margin: 8px 8px;
   background-color: white;
+  height: 400px;
 }
 
 .start-content img {
@@ -168,4 +180,10 @@ header a {
 
 .start-content p {
   color: #6B6B6B;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.start-content h3 {
+  font-size: 30px;
 }
