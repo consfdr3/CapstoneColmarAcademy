@@ -187,3 +187,35 @@ header a {
 .start-content h3 {
   font-size: 30px;
 }
+
+/* Thesis Exhibit */
+.thesis {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thesis-title {
+  text-align: center;
+}
+
+.thesis-video {
+}
+
+.thesis-main {
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.thesis-additional-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.thesis-additional {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
