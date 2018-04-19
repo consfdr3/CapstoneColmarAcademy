@@ -199,10 +199,11 @@ header a {
 }
 
 .thesis-video {
+  width: 150%;
 }
 
 .thesis-main {
-  width: 60%;
+  width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -211,7 +212,8 @@ header a {
 
 .thesis-additional-image {
   display: flex;
-  flex-direction: column;
+  width: 150px;
+  height: 150px;
 }
 
 .thesis-additional {
@@ -222,4 +224,5 @@ header a {
 .thesis-additional-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
