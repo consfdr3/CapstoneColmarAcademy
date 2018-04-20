@@ -189,16 +189,27 @@ header a {
 }
 
 /* Thesis Exhibit */
+
+.thesis-title {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
 .thesis {
   display: flex;
 }
 
 .thesis video {
-  width: 60%;
+  width: 70%;
+  border: 2px solid #CCCCCC;
+  margin-bottom: 24px;
 }
 
 .thesis-main {
   width: 60%;
+  margin-right: 24px;
+  margin-left: 24px;
 }
 
 .thesis-cards {
@@ -206,12 +217,30 @@ header a {
   flex-direction: column;
 }
 
-
-
-.thesis-card-one img {
-  width: 150px;
+.thesis-card-one {
+  display: flex;
+  background-color: #CCCCCC;
+  padding-right: 32px;
 }
 
-.thesis-card-two img {
+.thesis-card-two {
+  display: flex;
+}
+
+.card-one-img img {
   width: 150px;
+  margin: 16px 16px;
+}
+
+.card-two-img img {
+  width: 150px;
+  margin: 16px 16px;
+}
+
+/* Footer */
+
+footer {
+  margin-left: 24px;
+  margin-top: 16px;
+  border-top: 2px solid #CCCCCC;
 }
