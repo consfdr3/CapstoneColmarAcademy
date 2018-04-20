@@ -212,8 +212,7 @@ header a {
 
 .thesis-additional-image {
   display: flex;
-  width: 100px;
-  height: 100px;
+  flex-direction: column;
 }
 
 .thesis-additional {
@@ -225,4 +224,6 @@ header a {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-top: 16px;
+  margin-bottom: 16px;
 }
