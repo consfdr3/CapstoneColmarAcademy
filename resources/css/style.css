@@ -22,6 +22,38 @@ body h3 {
 
 /* Navbar */
 
+@media only screen and (max-width: 480px) {
+
+.desktop-img {
+  display: none;
+}
+
+  nav a {
+    display: none;
+  }
+  .nav h1 {
+    display: none;
+  }
+  .phone-img {
+    width: 50px;
+    display: inline-flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  header {
+    height: 64px;
+  }
+  nav img {
+    display: inline-flex;
+  }
+}
+
+nav img {
+  display: none;
+}
+
 .nav {
   display: inline-flex;
 }
@@ -59,6 +91,17 @@ header a {
 }
 
 /* Learn Something */
+
+@media only screen and (max-width: 480px) {
+  .learn-img-phone {
+    display: flex;
+    width: 100%;
+  }
+
+  .learn {
+    display: inline-block;
+  }
+}
 
 .learn {
   display: flex;
