@@ -24,30 +24,133 @@ body h3 {
 
 @media only screen and (max-width: 480px) {
 
-.desktop-img {
-  display: none;
-}
+  /* Header Media Queries */
 
-  nav a {
+  .desktop-img {
     display: none;
   }
-  .nav h1 {
-    display: none;
-  }
-  .phone-img {
-    width: 50px;
-    display: inline-flex;
-    margin-left: 30px;
-    margin-right: 30px;
-    justify-content: center;
-    align-items: center;
-  }
-  header {
-    height: 64px;
-  }
-  nav img {
-    display: inline-flex;
-  }
+
+    nav a {
+      display: none;
+    }
+    .nav h1 {
+      display: none;
+    }
+    .phone-img {
+      width: 50px;
+      display: inline-flex;
+      margin-left: 30px;
+      margin-right: 30px;
+      justify-content: center;
+      align-items: center;
+    }
+    header {
+      height: 64px;
+    }
+    nav img {
+      display: inline-flex;
+    }
+
+    /* Learn Something Media Queries */
+
+    .learn-img-phone {
+      display: flex;
+      width: 480px;
+    }
+
+    .learn {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Keep Learning Media Queries */
+
+    .keep {
+      border: 2px solid white;
+      background-color: white;
+    }
+
+    .keep-main-phone {
+      display: none;
+    }
+
+    .keep-img-desktop {
+      display: none;
+    }
+
+    .keep-content {
+      background-color: white;
+    }
+
+    .lecture-content {
+      background-color: white;
+    }
+
+    /* Start Learning Media Queries */
+
+    .start {
+      background-color: white;
+    }
+
+    .start-container p {
+      display: none;
+    }
+
+    .start-container img {
+      display: none;
+    }
+
+    .start-phone-flex {
+      display: flex;
+    }
+
+    .start-container {
+      display: flex;
+      width: 160px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    /* Thesis Exhibit Media Queries */
+
+    .thesis-card-one img{
+      display: none;
+    }
+
+    .thesis-card-one h3 {
+      display: none;
+    }
+
+    .thesis-card-one p {
+      display: none;
+    }
+
+    .thesis-card-two img {
+      display: none;
+    }
+
+    .thesis-card-two h3 {
+      display: none;
+    }
+
+    .thesis-card-two p {
+      display: none;
+    }
+
+    .thesis-main h3 {
+      display: none;
+    }
+
+    .thesis-main p {
+      display: none;
+    }
+
+    .thesis-main video {
+      width: 470px;
+    }
+
 }
 
 nav img {
@@ -92,18 +195,6 @@ header a {
 
 /* Learn Something */
 
-@media only screen and (max-width: 480px) {
-  .learn-img-phone {
-    display: flex;
-    width: 480px;
-  }
-
-  .learn {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 .learn {
   display: flex;
   align-items: center;
@@ -137,30 +228,6 @@ header a {
 }
 
 /* Keep Learning */
-
-@media only screen and (max-width: 480px){
-
-  .keep {
-    border: 2px solid white;
-    background-color: white;
-  }
-
-  .keep-main-phone {
-    display: none;
-  }
-
-  .keep-img-desktop {
-    display: none;
-  }
-
-  .keep-content {
-    background-color: white;
-  }
-
-  .lecture-content {
-    background-color: white;
-  }
-}
 
 .keep-img-phone {
   display: none;
@@ -214,33 +281,6 @@ header a {
 
 /* Start Learning */
 
-@media only screen and (max-width: 480px) {
-  .start {
-    background-color: white;
-  }
-
-  .start-container p {
-    display: none;
-  }
-
-  .start-container img {
-    display: none;
-  }
-
-  .start-phone-flex {
-    display: flex;
-  }
-
-  .start-container {
-    display: flex;
-    width: 160px;
-  }
-
-  .hidden {
-    display: none;
-  }
-}
-
 .start {
   background-color: #CCCCCC;
 }
@@ -289,43 +329,7 @@ header a {
 
 /* Thesis Exhibit */
 
-@media only screen and (max-width: 480px){
-  .thesis-card-one img{
-    display: none;
-  }
 
-  .thesis-card-one h3 {
-    display: none;
-  }
-
-  .thesis-card-one p {
-    display: none;
-  }
-
-  .thesis-card-two img {
-    display: none;
-  }
-
-  .thesis-card-two h3 {
-    display: none;
-  }
-
-  .thesis-card-two p {
-    display: none;
-  }
-
-  .thesis-main h3 {
-    display: none;
-  }
-
-  .thesis-main p {
-    display: none;
-  }
-
-  .thesis-main video {
-    width: 470px;
-  }
-}
 
 .thesis-title {
   text-align: center;
