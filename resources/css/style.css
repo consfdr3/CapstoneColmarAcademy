@@ -53,6 +53,10 @@ body h3 {
 
     /* Learn Something Media Queries */
 
+    .learncontent {
+      text-align: center;
+    }
+
     .learn-img-phone {
       display: flex;
       width: 480px;
@@ -65,13 +69,36 @@ body h3 {
 
     /* Keep Learning Media Queries */
 
-    .keep {
-      border: 2px solid white;
-      background-color: white;
+    .keep-content {
+      display: none !important;
+    }
+
+    .lecture-content {
+      display: none !important;
+    }
+
+    .keep-phone {
+      margin-left: 45px;
+      display: block !important;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .keep-phone a {
+      color: #009CEA;
+    }
+
+    .keep-img-phone {
+      display: flex !important;
     }
 
     .keep-main-phone {
       display: none;
+    }
+
+    .keep {
+      border: 4px solid white !important;
+      background-color: white;
     }
 
     .keep-img-desktop {
@@ -79,17 +106,34 @@ body h3 {
     }
 
     .keep-content {
-      background-color: white;
+      background-color: white !important;
     }
 
     .lecture-content {
-      background-color: white;
+      background-color: white !important;
     }
 
     /* Start Learning Media Queries */
 
     .start {
-      background-color: white;
+      background-color: white !important;
+    }
+
+    .start-phone {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      display: flex !important;
+      width: 480px;
+      height: 100px;
+      color: #333333;
+      background-color: #E0E0E0;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .start-content {
+      display: none;
     }
 
     .start-container p {
@@ -107,6 +151,7 @@ body h3 {
     .start-container {
       display: flex;
       width: 160px;
+      text-align: center;
     }
 
     .hidden {
@@ -148,7 +193,12 @@ body h3 {
     }
 
     .thesis-main video {
-      width: 470px;
+      display: none;
+    }
+
+    .thesis-vid-phone {
+      display: block !important;
+      width: 460px;
     }
 
 }
@@ -229,6 +279,10 @@ header a {
 
 /* Keep Learning */
 
+.keep-phone {
+  display: none;
+}
+
 .keep-img-phone {
   display: none;
 }
@@ -280,6 +334,10 @@ header a {
 }
 
 /* Start Learning */
+
+.start-phone {
+  display: none;
+}
 
 .start {
   background-color: #CCCCCC;
@@ -376,6 +434,10 @@ header a {
 .card-two-img img {
   width: 150px;
   margin: 16px 16px;
+}
+
+.thesis-vid-phone {
+  display: none;
 }
 
 /* Footer */
